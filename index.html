@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>Paul Visual</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Amatic+SC&display=swap" rel="stylesheet">
+  <link rel="icon" href="images/pic.ico">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+  <section id="title">
+
+    <nav class="navbar fixed-top bg-dark navbar-expand-md navbar-dark">
+      <a class="navbar-brand"><img src="images/pic2.png" class="logo">Paul Visuals</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="#carouselExampleIndicators">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#about">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#booking">Booking</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true" style="height: 100%; margin-top:50px;">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="images/1.jpg" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="images/2.jpg" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="images/3.jpg" class="d-block w-100" alt="...">
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+
+    <div style="margin: 20px;">
+      <h1 class="quote" style="text-align:center; padding: 100px 0 100px;">Capturing Special Moments</h1>
+    </div>
+
+    <div class="row" id="about">
+      <div class="col-lg-9">
+        <img src="images/paul.jpg" style="width:100%; margin-left: 20px;">
+      </div>
+      <div class="col-lg-3">
+        <h3 style="padding-top:20px;"> About Paul</h3>
+        <p style="padding: 20px; line-height:2.5;">John Paul Quirante is a 17 year-old professional photographer based in Dumaguete. Despite his young age, he already has a very wide range of experience in videography, photography, and editing. He is currently pursuing both his Senior High School education and his passion in photography.</p>
+      </div>
+    </div>
+
+    <form enctype="text/plain" action="mailto:johnpl3q@gmail.com" method="post">
+      <h3 id="booking">GET IN TOUCH</h1>
+      <div class="mb-3">
+        <label class="form-label">Name:</label>
+        <input type="text" class="form-control" name="Name">
+      </div>
+      <div class="mb-3">
+        <label class="form-label">Message:</label>
+        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" name="Message"></textarea>
+      </div>
+      <input type="submit" name="" value="Submit">
+    </form>
+
+    <div class="socialsdiv">
+      <a href="https://www.facebook.com/profile.php?id=100082690124099"><img class="socials" src="images/fb.png" alt=""></a>
+      <a href="https://www.instagram.com/jampoool3/"><img class="socials" src="images/ig.png" alt=""></a>
+      <a href="mailto:johnpl3q@gmail.com"><img class="socials" src="images/email.png" alt=""></a>
+    </div>
+
+    <footer id="footer">
+      <hr>
+      <p style="text-align: center;">© Yen Codes</p>
+    </footer>
+
+</body>
+
+</html>
